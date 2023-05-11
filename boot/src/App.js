@@ -5,6 +5,8 @@ import Ejemplo1 from './hooks/Ejemplo1';
 import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplos4 from './hooks/Ejemplos4';
+import GreetingStyled from './components/pure/greetingStyled';
+import ActSesions from './hooks/lifecycle/ActSesions';
 
 function App() {
   return (
@@ -15,11 +17,13 @@ function App() {
         {/* <Ejemplo1/> */}
         {/* <Ejemplo2/> */}
         {/* <MiComponenteConContexto/> */}
-        <Ejemplos4 nombre="Cami">
+        {/* <Ejemplos4 nombre="Cami">
           <h3>
             Este contenido es del children
           </h3>
-        </Ejemplos4>
+        </Ejemplos4> */}
+        {/* <GreetingStyled name={'Cami'}/> */}
+        <ActSesions/>
       </header>
     </div>
   );
