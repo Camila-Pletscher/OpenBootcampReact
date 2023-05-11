@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const ActSesions = () => {
+const Prueba = () => {
   const defaultState = {
     fecha: new Date(),
     edad: 0,
@@ -37,4 +37,4 @@ const ActSesions = () => {
   );
 };
 
-export default ActSesions;
+export default Prueba;

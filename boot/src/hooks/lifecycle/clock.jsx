@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 
-const ActSesions = () => {
+const Clock = () => {
   const defaultState = {
     fecha: new Date(),
     edad: 0,
-    nombre: "Martin",
+    nombre: "Martín",
     apellidos: "San José",
   };
 
@@ -27,14 +27,18 @@ const ActSesions = () => {
       apellidos: user.apellidos,
     });
   };
-
   return (
     <div>
-      Hora actual: {user.fecha.toLocaleDateString()}
-      Nombre y apellido: {user.nombre} {user.apellidos}
-      Edad: {user.edad}
+      <h2>
+        Hora Actual:
+        {user.fecha.toLocaleTimeString()}
+      </h2>
+      <h3>
+        {user.nombre} {user.apellidos}
+      </h3>
+      <h1>Edad: {user.edad}</h1>
     </div>
   );
 };
 
-export default ActSesions;
+export default Clock;

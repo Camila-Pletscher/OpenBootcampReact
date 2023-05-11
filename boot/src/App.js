@@ -6,14 +6,16 @@ import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplos4 from './hooks/Ejemplos4';
 import GreetingStyled from './components/pure/greetingStyled';
-import ActSesions from './hooks/lifecycle/ActSesions';
+import Clock from './hooks/lifecycle/clock';
+
+import Prueba from './hooks/lifecycle/prueba';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/* <TaskListComponent/> */}
+      {/* <header className="App-header"> */}
+        <TaskListComponent/>
         {/* <Ejemplo1/> */}
         {/* <Ejemplo2/> */}
         {/* <MiComponenteConContexto/> */}
@@ -23,8 +25,10 @@ function App() {
           </h3>
         </Ejemplos4> */}
         {/* <GreetingStyled name={'Cami'}/> */}
-        <ActSesions/>
-      </header>
+        {/* <ActSesions></ActSesions> */}
+        {/* <Prueba/> */}
+        {/* <Clock/> */}
+      {/* </header> */}
     </div>
   );
 }
