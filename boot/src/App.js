@@ -9,13 +9,14 @@ import GreetingStyled from './components/pure/greetingStyled';
 import Clock from './hooks/lifecycle/clock';
 
 import Prueba from './hooks/lifecycle/prueba';
+import Father from './components/container/father';
 
 
 function App() {
   return (
     <div className="App">
       {/* <header className="App-header"> */}
-        <TaskListComponent/>
+        {/* <TaskListComponent/> */}
         {/* <Ejemplo1/> */}
         {/* <Ejemplo2/> */}
         {/* <MiComponenteConContexto/> */}
@@ -29,6 +30,11 @@ function App() {
         {/* <Prueba/> */}
         {/* <Clock/> */}
       {/* </header> */}
+
+      {/* //! gestion de eventos  */}
+      <Father/>
+
+
     </div>
   );
 }
