@@ -10,6 +10,7 @@ import Clock from './hooks/lifecycle/clock';
 
 import Prueba from './hooks/lifecycle/prueba';
 import Father from './components/container/father';
+import ContactListComponent from './components/container/contact_list';
 
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       {/* </header> */}
 
       {/* //! gestion de eventos  */}
-      <Father/>
+      {/* <Father/> */}
+      <ContactListComponent/>
 
 
     </div>
