@@ -9,7 +9,7 @@ const ContactForm = ({add}) => {
 
 
     function addContact(e){
-        e.preventDefault();
+        e.preventgitDefault();
         const newContact = new Contact(
             nameRef.current.value,
             celRef.current.value,

@@ -11,6 +11,7 @@ import Clock from './hooks/lifecycle/clock';
 import Prueba from './hooks/lifecycle/prueba';
 import Father from './components/container/father';
 import ContactListComponent from './components/container/contact_list';
+import OptionalRender from './components/pure/optionalRender';
 
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
 
       {/* //! gestion de eventos  */}
       {/* <Father/> */}
-      <ContactListComponent/>
+      {/* <ContactListComponent/> */}
+      <OptionalRender/>
 
 
     </div>
